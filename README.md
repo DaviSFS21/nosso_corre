@@ -9,6 +9,17 @@
      <img src="https://github.com/DaviSFS21/nossocorreFS/blob/main/assets/images/png/Nosso_Corre.png" width="250px;" height="250px;" alt="Logo da empresa">
    </div>
 
+
+## 🤝 Parceiros do projeto
+
+Sem nossos patrocinadores e apoiadores não seria possível esse projeto!
+
+- NOIX. of Street
+- VTR Corts
+- Martucheli eventos
+- Dra. Paloma Schiavão Odontologia
+- Mercado do Sorveteiro
+
 ## 💼 Tecnologias utilizadas
 
 Para o desenvolvimento deste site utilizamos as seguintes tecnologias:
