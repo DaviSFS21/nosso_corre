@@ -1,0 +1,102 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+body {
+  background: #f7f7f7;
+  margin: 0;
+  overflow-x: hidden;
+}
+header {  
+  flex: 0 auto;
+  background: #fcca43;
+  width: 100%;
+  height: 200px;
+  padding: 1rem;
+}
+
+article {
+  text-align: justify;
+  position: relative;
+  width: 80%;
+  min-width: 320px;  
+  background: white;
+  margin: auto;
+  margin-top: -120px ;  
+  box-shadow: 0 10px 20px 2px rgba(0,0,0,.12);
+  padding: 1em 6em;
+  border-radius: 4px;
+}
+
+@media (max-width: 640px) {
+  article {
+    width: 98%;
+    padding: 1em;
+  };
+}
+
+/* Scrollbar */
+::-webkit-scrollbar {
+  width: 18px;
+}
+
+::-webkit-scrollbar-track {
+  box-shadow: 0 0 5px #666;
+  border-radius: 50px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #011752;
+  border-radius: 50px;
+}
+
+/* Loading */
+.loading {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #000;
+  z-index: 9999;
+  opacity: 1;
+  transition: opacity 1s ease;
+}
+
+.loading-spinner {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  background-image: url(../../../assets/images/svg/Nosso_Corre.svg);
+  animation: pulse 2s alternate;
+}
+
+@keyframes pulse {
+	0% {
+		transform: scale(0.95);
+	}
+
+	50% {
+		transform: scale(1);
+	}
+
+  75% {
+		transform: scale(0.95);
+	}
+
+	100% {
+		transform: scale(1);
+	}
+}
+
+.loading.fade-out {
+  opacity: 0;
+}

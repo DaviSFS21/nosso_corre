@@ -1,0 +1,117 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800&display=swap");
+
+
+@font-face {
+    font-family: Grafite;
+    src: url(../../assets/fonts/StreetartDemoRegular.ttf);
+}
+
+body {
+    font-family: Poppins, serif;
+    font-size: 1rem;
+    line-height: 1.5;
+    background-color: #fff;
+}
+
+.title h1 {
+    color: #fcaa43;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    font-size: 5rem;
+}
+
+.title p {
+    color: #fcaa43;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    font-size: 3rem;
+    margin-top: -4rem;
+}
+
+.container {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    font-size: 1.5rem;
+}
+
+.container fieldset {
+    width: 7rem;
+    height: 30rem;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    color: #1d3557;
+}
+
+fieldset {
+    color: black;
+    border-radius: 2%;
+
+}
+
+.hero {
+    width: 100%;
+    height: 18rem;
+    background: #1d3557;
+    display: table;
+}
+
+h1 {
+    color: #1d3557;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+    color: #fff;
+    font-weight: 300;
+    margin-top: 5rem;
+}
+.loading {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #000;
+    z-index: 9999;
+    opacity: 1;
+    transition: opacity 1s ease;
+  }
+  
+  .loading-spinner {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    background-image: url(../../../assets/images/svg/Nosso_Corre.svg);
+    animation: pulse 2s alternate;
+  }
+  
+  @keyframes pulse {
+      0% {
+          transform: scale(0.95);
+      }
+  
+      50% {
+          transform: scale(1);
+      }
+  
+    75% {
+          transform: scale(0.95);
+      }
+  
+      100% {
+          transform: scale(1);
+      }
+  }
+  
+  .loading.fade-out {
+    opacity: 0;
+  }
