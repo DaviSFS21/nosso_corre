@@ -33,7 +33,7 @@ Para o desenvolvimento deste site utilizamos os(as) seguintes frameworks/libs :
   Para o desenvolvimento deste site utilizamos as seguintes Api's
 
   - CEPaberto API;
-  - Cookies API
+  - Cookies API;
 
 ## 💻 Pré-requisitos
 
